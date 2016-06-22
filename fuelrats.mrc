@@ -57,9 +57,9 @@ menu channel {
     msg $chan %fr_dispatch $+ : %fr_client is now CR!
     msg $chan ! $+ %fr_client_os $+ exit %fr_client
   }
-  ..Tell mechasqueek: msg $chan !inject %fr_client Case Red
+  ..Tell Ratsqueak: msg $chan !inject %fr_client Case Red
   -
-  mechasqueak[BOT]
+  Ratsqueak[BOT]
   .%fr_client
   ..Toggle active: msg $chan !active %fr_client
   ..Quote: msg $chan !quote %fr_client
